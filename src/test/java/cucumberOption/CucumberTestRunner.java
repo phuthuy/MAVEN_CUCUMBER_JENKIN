@@ -14,6 +14,5 @@ import cucumber.api.junit.Cucumber;
 // dryRun=true
 )
 public class CucumberTestRunner {
-//update comment to run auto in Jenkin
 
 }
