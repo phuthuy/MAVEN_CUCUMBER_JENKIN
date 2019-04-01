@@ -5,7 +5,6 @@ import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
 import cucumber.api.junit.Cucumber;
-import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/java/features", glue = "stepDefinitions", monochrome = true, dryRun = false, plugin = {
@@ -15,6 +14,6 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 // dryRun=true
 )
 public class CucumberTestRunner {
-
+//update comment to run auto in Jenkin
 
 }
